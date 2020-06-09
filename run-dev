@@ -1,1 +1,1 @@
-python manage.py runserver --settings=TareaCLiente.settings.deveploment
+python manage.py runserver --settings=TareaCliente.settings.deveploment

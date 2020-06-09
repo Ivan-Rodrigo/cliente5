@@ -1,1 +1,1 @@
-web: gunicorn CS.wsgi:application --pythonpath app --log-file -
+web: gunicorn TareaCliente.wsgi:application --pythonpath app --log-file -
