@@ -1,0 +1,1 @@
+web:gunicorn.TareaCliente.wsgi: aplication ==pythonpath app == log=file=
