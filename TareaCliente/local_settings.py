@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '2thw8h6k@hoe&gk!j3@t4efsd0$mu+tzay@z(nb&^1j-3+ao+g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['clienteservidorprueba.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -49,7 +49,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
 ]
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES':('rest_framework.permissions.IsAuthenticated',),
@@ -127,9 +126,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
-
-try:
-    from TareaCliente.local_settings import *
-except ImportError:
-    pass
