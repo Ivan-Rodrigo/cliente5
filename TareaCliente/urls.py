@@ -34,9 +34,8 @@ router.register(r'users',UserViewSet)
 
 schema_view = get_swagger_view(title='Pastebin API')
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^',include(router.urls)),
-    path('swagger/', schema_view),
+    path('Swagger/', schema_view),
 ]
