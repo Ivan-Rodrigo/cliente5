@@ -50,7 +50,6 @@ cobertura.xml
 .hipótesis/
 .pytest_cache /
 cubrir/
-.ini
 
 # Traducciones
 *.mes
@@ -61,6 +60,7 @@ cubrir/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+settings.ini
 
 # Matraces:
 ejemplo/
@@ -137,3 +137,4 @@ dmypy.json
 
 # Símbolos de depuración de Cython
 cython_debug /
+
