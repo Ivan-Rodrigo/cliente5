@@ -50,6 +50,7 @@ cobertura.xml
 .hipótesis/
 .pytest_cache /
 cubrir/
+.ini
 
 # Traducciones
 *.mes
